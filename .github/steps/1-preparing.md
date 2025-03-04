@@ -27,17 +27,22 @@ GitHub Copilot has been proven to increase developer productivity and accelerate
 
 1. Click the extensions sidebar tab and verify that `GitHub Copilot` extension is installed.
 
-   <!-- TODO: Add screenshot -->
+   ![image](https://github.com/user-attachments/assets/c1ddca93-723d-4c62-a309-5944e5dfc6f4)
+
 
 1. Search for the Copilot Icon on the top right section of your editor.
    Open up Copilot Chat and ask Copilot to introduce you to the project.
 
-   Use the `@workspace`
    ```txt
    @workspace Briefly explain the structure of the codebase in this repository.
    ```
 
-1. Run the project by using  `Run and Debug` section in the left sidebar of VS Code. Then head to the ports tab and open the application available on port 8000
+1. Run the project by using  `Run and Debug` section in the left sidebar of VS Code.
+
+   <img width="300" alt="image" src="https://github.com/user-attachments/assets/50b27f2a-5eab-4827-9343-ab5bce62357e" />
+
+
+1. Then head to the ports tab and open the application available on port `8000`
 
    <!-- TODO: Add screenshot -->
 
