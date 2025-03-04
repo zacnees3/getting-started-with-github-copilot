@@ -60,6 +60,7 @@ There are many Copilot Features and interaction modes. In this step you will get
    ```
 
    On the bottom part of Copilot Chat you can choose what AI Model Copilot should use. Different models can provide different results.
+   ![image](https://github.com/user-attachments/assets/2668c5f8-1f28-4361-bf07-0b67d6a4e7c4)
 
 1. You can use Copilot Chat inline to stay in the flow. It's often used when you are dealing with problems or want to understand a specific part of the code.
 
@@ -77,6 +78,9 @@ There are many Copilot Features and interaction modes. In this step you will get
    1. Click the `+` sign next to  `app.py` file to stage your changes.
    1. On the right side of the commit message window click :sparkles: to generate commit message with copilot
    1. Commit and sync your changes with the automatically generated message
+
+   ![image](https://github.com/user-attachments/assets/7d3daf4e-4125-4775-88a7-33251cd7293e)
+
 
 1. Wait a moment for the bot to check your work. You will see a comment with progress info and the next lesson.
 
