@@ -26,6 +26,30 @@ There are many Copilot Features and interaction modes. In this step you will get
 
    Press `Tab` to accept your first Copilot suggestion :tada: :robot:
 
+
+   <details>
+   <summary>Example suggestion</summary><br/>
+
+   ```python
+   @app.post("/activities/{activity_name}/signup")
+   def signup_for_activity(activity_name: str, email: str):
+      """Sign up a student for an activity"""
+      # Validate activity exists
+      if activity_name not in activities:
+         raise HTTPException(status_code=404, detail="Activity not found")
+
+      # Validate student is not already signed
+      if email in activities[activity_name]["participants"]:
+         raise HTTPException(status_code=400, detail="Student is already signed up")
+      
+      activity = activities[activity_name]
+
+      # Add student
+      activity["participants"].append(email)
+      return {"message": f"Signed up {email} for {activity_name}"}
+   ```
+   </details>
+
    > **TIP**: If you would like to see other suggestions, instead of pressing `Tab`, hover over the suggestion and a small panel will show up. On it's right side click the three dots `...` and select `Open Completions Panel`
 
 
