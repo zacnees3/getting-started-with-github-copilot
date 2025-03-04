@@ -14,13 +14,9 @@ GitHub Copilot has been proven to increase developer productivity and accelerate
 
 ### :keyboard: Activity: Getting to know basic Copilot features :robot:
 
-1. Right-click the below button to open the **Create Codespace** page in a new tab.
+1. Right-click the below button to open the **Create Codespace** page in a new tab. Use the default configuration.
 
    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/{{full_repo_name}}?quickstart=1)
-
-   - The free tier of Codespaces that comes with all GitHub accounts is fine, assuming you still have minutes available.
-   - The default Codespace settings are fine.
-   - This repository will provide the additional settings and files for making your extension.
 
 1. Confirm the **Repository** field is your copy of the exercise, not the original, then click the green **Create Codespace** button.
 
