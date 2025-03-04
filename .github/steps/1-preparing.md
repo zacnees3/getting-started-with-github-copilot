@@ -44,11 +44,12 @@ GitHub Copilot has been proven to increase developer productivity and accelerate
 
 1. Then head to the ports tab and open the application available on port `8000`
 
-   <!-- TODO: Add screenshot -->
+  ![image](https://github.com/user-attachments/assets/92d5642e-ce99-4a66-850c-2d311a673596)
+
 
 1. Great! Now that you know what we will be working with, let's have your first interaction with Copilot.
 
-   Open up a terminal in VS Code so you won't interrupt the debug session you just started.
+   Open up a terminal a new terminal window in VS Code so you won't interrupt the debug session you just started in the current one.
 
    Next, `Right click` within the newly created terminal window, then click `Copilot` => `Terminal Inline Chat`.
 
