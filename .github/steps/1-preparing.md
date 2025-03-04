@@ -30,8 +30,13 @@ GitHub Copilot has been proven to increase developer productivity and accelerate
    <!-- TODO: Add screenshot -->
 
 1. Search for the Copilot Icon on the top right section of your editor.
-   Open up Copilot Chat and ask Copilot to introduce you to the project, to do that type `/explain` in the Chat Window.
-   <!-- TODO: Add screenshot -->
+   Open up Copilot Chat and ask Copilot to introduce you to the project.
+
+   Use the `@workspace`
+   ```txt
+   @workspace Briefly explain the structure of the codebase in this repository.
+   ```
+
 1. Run the project by using  `Run and Debug` section in the left sidebar of VS Code. Then head to the ports tab and open the application available on port 8000
 
    <!-- TODO: Add screenshot -->
