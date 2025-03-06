@@ -1,7 +1,11 @@
 name: Step 4 # Copilot on GitHub
 
 on:
-  pull_request_review: # PR Review from Copilot
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
 
 permissions:
   contents: read
