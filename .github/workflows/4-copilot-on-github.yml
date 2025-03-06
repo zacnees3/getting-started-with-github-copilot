@@ -8,7 +8,7 @@ on:
       - closed
 
 permissions:
-  contents: read
+  contents: write
   actions: write
   issues: write
 
@@ -104,19 +104,6 @@ jobs:
         run: |
           gh issue comment "$ISSUE_URL" \
             --body-file "$REVIEW_FILE"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Create comment - watching for progress
-        run: |
-          gh issue comment "$ISSUE_URL" \
-            --body-file skills-response-templates/step-feedback/watching-for-progress.md
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Disable current workflow
-        run: |
-          gh workflow disable "Step 4"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
