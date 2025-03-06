@@ -84,7 +84,7 @@ jobs:
 
   post_review_content:
     if: false
-    name: Post next step content
+    name: Post review content
     needs: [find_exercise, check_step_work]
     runs-on: ubuntu-latest
     env:
@@ -121,8 +121,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   finish_exercise:
-    if: false
-    name: Finish course
+    name: Finish exercise
     needs: [find_exercise, post_review_content]
     runs-on: ubuntu-latest
     env:
