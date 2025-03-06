@@ -18,7 +18,7 @@ Your most common interactions will likely be:
 > [!TIP]
 > You can learn more about current and preview features in the [GitHub Copilot Features](https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features) documentation.
 
-> [!TIP] 
+> [!TIP]
 > You can also select different [models](https://docs.github.com/en/github-models) and [extensions](https://github.com/features/copilot/extensions), but those are different lessons!
 
 ### How can I use GitHub Copilot?
@@ -26,6 +26,7 @@ Your most common interactions will likely be:
 As you work, you'll find GitHub Copilot can help out in several places across the website and in your favorite coding environments such as VS Code, Jet Brains, XCode! For today's coding though, we will practice with VS Code in a preconfigured development environment known as [Codespace](https://github.com/features/codespaces).
 
 ### :keyboard: Activity: Get a project intro from Copilot Chat :robot:
+
 Let's start up our development environment, use copilot to learn a bit about the project, and then give it a test run.
 
 1. Right-click the below button to open the **Create Codespace** page in a new tab. Use the default configuration.
@@ -45,7 +46,7 @@ Let's start up our development environment, use copilot to learn a bit about the
 
    <!-- Change above image to also display the python and python debugger extensions. -->
 
-1. At the top of VS Code, locate and click the **Copilot icon** to open a  Copilot Chat panel.
+1. At the top of VS Code, locate and click the **Copilot icon** to open a Copilot Chat panel.
 
 1. Enter the below prompt to ask Copilot to introduce you to the project.
 
@@ -68,6 +69,7 @@ Let's start up our development environment, use copilot to learn a bit about the
    > **Tip:** If the webpage doesn't open, make sure you still have the program running.
 
 ### :keyboard: Activity: Use Copilot to help remember a terminal command :robot:
+
 Great work! Now that you are familiar with our app, let's ask copilot for helping starting a branch so we can do some customizing.
 
 1. If not already there, return to VS Code.
@@ -100,13 +102,12 @@ Great work! Now that you are familiar with our app, let's ask copilot for helpin
    ```
 
    > **Tip:** If something is incorrect in the response, you can always continue explaining what you need. Copilot will remember the conversation history in follow-up responses.
-   
+
 1. Now that we are happy with the command, press the `Run` button to let Copilot run it for us. No need to copy and paste!
 
 1. After a moment, look in the VS Code lower status bar, on the left, to see the active branch. It should now say `accelerate-with-copilot`. If so, you are all done with this step!
 
 1. Mona should already be busy checking your work. Give her a moment and keep watch of the comments. You will see her respond with progress info and the next lesson.
-
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>

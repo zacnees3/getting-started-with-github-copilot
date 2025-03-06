@@ -2,7 +2,7 @@
 
 In the previous step, we Copilot was able to help us onboard to the project. That alone is a huge time save, but now let's get some work done!
 
-We recently learned there is a bug where students are registering for the same activites twice. That simply isn't acceptable, so let's get it fixed! 
+We recently learned there is a bug where students are registering for the same activites twice. That simply isn't acceptable, so let's get it fixed!
 
 Unfortunately, we were given little information to solve this problem. Let's enlist Copilot to help find the problem area and get a potential solution made.
 
@@ -22,18 +22,18 @@ In short, you can think of Copilot like a very focused coworker. To be effective
 
 1. Let's ask Copilot to suggest where our bug might be coming from. Open the Copilot Chat panel and ask the following.
 
-   ```
+   ```text
    @workspace Students are able to register twice for an activity. Where could this bug be coming from?
    ```
 
 1. Now that we know the issue is in the `src/appy.py` file and the `signup_for_activity` method, let's go fix it (semi-manually). We'll start with a comment and let Copilot finish the correction.
-   
+
    1. In VS Code, select the **Navigation** tab to show the project files and open the `src/app.py` file.
 
    1. Scroll near the bottom of the file and find the `signup_for_activity` method.
 
    1. Find the comment line that describes adding a student. Above this is where it seems logical to do our registration check.
-   
+
    1. Enter the below comment and press enter to go to the next line. After a moment, temporary shadow text will appear with a suggestion from Copilot! Nice! :tada:
 
       ```python
@@ -56,7 +56,7 @@ In short, you can think of Copilot like a very focused coworker. To be effective
       # Validate activity exists
       if activity_name not in activities:
          raise HTTPException(status_code=404, detail="Activity not found")
-      
+
       # Get the activity
       activity = activities[activity_name]
 
@@ -68,14 +68,16 @@ In short, you can think of Copilot like a very focused coworker. To be effective
       activity["participants"].append(email)
       return {"message": f"Signed up {email} for {activity_name}"}
    ```
+
    </details>
 
 ### :keyboard: Activity: Let Copilot generate sample data :robot:
 
 In new project developments, it's often helpful to have some realistic looking fake data for testing. Copilot is excellent at this task, so let's add some more sample activities and introduce our next interface: **Inline Chat**
 
-> [!TIP]
-> **Inline Chat** and the **Copilot Chat** panel are very similar tools, but with slightly different automatic context. As such, while Copilot Chat is good at explaining about the project, Inline chat might feel more natural for asking about a particular line or function.
+> [!TIP]  
+> **Inline Chat** and the **Copilot Chat** panel are very similar tools, but with slightly different automatic context.
+> As such, while Copilot Chat is good at explaining about the project, inline chat might feel more natural for asking about a particular line or function.
 
 1. If not already ready, open the `src/app.py` file.
 
@@ -87,7 +89,7 @@ In new project developments, it's often helpful to have some realistic looking f
 
 1. Enter the following prompt text and press the **Send and Dispatch** button.
 
-   ```
+   ```text
    Add 2 more sports related activities, 2 more artistic activities, and 2 more intellectual activities.
    ```
 
@@ -196,6 +198,7 @@ Nice work fixing that bug and expanding the example activities! Now let's get ou
    ![image](https://github.com/user-attachments/assets/7d3daf4e-4125-4775-88a7-33251cd7293e)
 
 1. Above the list of staged changes, find the **Message** text box, but **don't enter anything** for now.
+
    - Typically, you would write a short description of the changes here. But now we have Copilot!
 
 1. To the right of the **Message** text box, find and click the **Generate Commit Message with Copilot** button (:sparkles: icon).

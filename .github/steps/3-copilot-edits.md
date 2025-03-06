@@ -1,17 +1,17 @@
-## Step 3: Getting work done even *faster* with Copilot Edits
+## Step 3: Getting work done even _faster_ with Copilot Edits
 
-In our previous steps, we used features of Copilot that require more hands-on guidance and produced single isolated results. Now, we will explore a Copilot feature that works more holistically on our repo. 
+In our previous steps, we used features of Copilot that require more hands-on guidance and produced single isolated results. Now, we will explore a Copilot feature that works more holistically on our repo.
 
 [Copilot Edits](https://code.visualstudio.com/docs/copilot/copilot-edits) works is an AI-powered code editing session to make changes across **multiple files** using natural language, and applies the edits directly in the editor, where you can review them in-place, with the full context of the surrounding code.
 
-#### Key features:
+#### Key features
 
 - **Multi-file Editing**: Copilot Edits can make changes across multiple files in your workspace.
 - **Iterative Workflow**: Designed for fast iteration, allowing you to review, accept, or discard AI-generated code.
 - **In-place Edits**: Shows generated code directly in your editor, providing a code review-like flow.
 - **Working Set**: Allows you to define which files the edits should be applied to.
 
-#### How it works:
+#### How it works
 
 1. **Set Context**: Select files to be in the working set.
 1. **Provide Instructions**: Use natural language to describe the required changes.
@@ -19,7 +19,7 @@ In our previous steps, we used features of Copilot that require more hands-on gu
 1. **Accept or Discard**: Review each suggested edit and choose which to keep.
 1. **Iterate**: If needed, provide follow-up instructions to refine the changes.
 
-### :keyboard: Activity: Use Copilot to add a new feature!
+### :keyboard: Activity: Use Copilot to add a new feature! :rocket:
 
 1. If the Copilot Chat panel is not visible, please reopen it.
 
@@ -32,7 +32,6 @@ In our previous steps, we used features of Copilot that require more hands-on gu
    - `src/static/app.js`
    - `src/static/index.html`
    - `src/static/styles.css`
-
 
    > **Tip:** You can also use the **Attach files...** button to provide other sources of context items, like a GitHub issue, the entire codebase, or the results of a terminal window.
 
@@ -53,7 +52,7 @@ In our previous steps, we used features of Copilot that require more hands-on gu
    <summary>Need help? 🤷</summary><br/>
 
    Remember, to add the relevant files to the working set.
-      
+
    ![image](https://github.com/user-attachments/assets/bdd7318b-50e3-46d0-88ce-7615f45ce334)
 
    </details>
@@ -75,7 +74,6 @@ In our previous steps, we used features of Copilot that require more hands-on gu
 1. Now that we have confirmed our changes are good, use the panel to cycle through each suggested edit and press **Keep** to apply the change.
 
    > **Tip:** You can accept the changes directly, modify them, or provide additional instruction to refine them using the chat interface.
-
 
 1. With our new feature complete, please **commit** and **push** the changes to GitHub.
 
