@@ -2,13 +2,24 @@
 
 Welcome to your **"Accelerate with GitHub Copilot"** exercise! :robot:
 
-In this exercise, you will be using different GitHub Copilot features to work on a website that allows students of Mergington High School to sign up for extracurricular activities :student:
+In this exercise, you will be using different GitHub Copilot features to work on a website that allows students of Mergington High School to sign up for extracurricular activities. 🎻 ⚽️ ♟️
 
 ### What is GitHub Copilot?
 
 GitHub Copilot is an AI coding assistant that helps you write code faster and with less effort, allowing you to focus more energy on problem solving and collaboration.
 
 GitHub Copilot has been proven to increase developer productivity and accelerate the pace of software development. For more information, see [Research: quantifying GitHub Copilot’s impact on developer productivity and happiness in the GitHub blog.](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/)
+
+Your most common interactions will likely be:
+
+- **Inline suggestions**: As you type, Copilot uses the nearby context to suggest code directly in your editor. This will be a familiar interaction if you have used code completion tools like [Intellisense](https://code.visualstudio.com/docs/editor/intellisense), except that the completions may be entire functions.
+- **Copilot Chat**: A dedicated chat panel that lets you ask coding-related questions. This will be familiar if you have used only AI assistant chats. The big difference however, is that your files can provide automatic context for copilot to provide tailored responses.
+
+> [!TIP]
+> You can learn more about current and preview features in the [GitHub Copilot Features](https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features) documentation.
+
+> [!TIP] 
+> You can also select different [models](https://docs.github.com/en/github-models) and [extensions](https://github.com/features/copilot/extensions), but those are different lessons!
 
 ### How can I use GitHub Copilot?
 
@@ -94,7 +105,7 @@ Great work! Now that you are familiar with our app, let's ask copilot for helpin
 
 1. After a moment, look in the VS Code lower status bar, on the left, to see the active branch. It should now say `accelerate-with-copilot`. If so, you are all done with this step!
 
-1. Mona should already be busy checking your work. Giver her a moment and keep watch of the comments. You will see her respond with progress info and the next lesson.
+1. Mona should already be busy checking your work. Give her a moment and keep watch of the comments. You will see her respond with progress info and the next lesson.
 
 
 <details>
