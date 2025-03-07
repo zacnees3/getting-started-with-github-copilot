@@ -21,8 +21,7 @@ env:
 jobs:
   find_exercise:
     if: |
-      !github.event.repository.is_template &&
-      github.event.pull_request.merged
+      !github.event.repository.is_template
     name: Find exercise by issue title
     runs-on: ubuntu-latest
 
