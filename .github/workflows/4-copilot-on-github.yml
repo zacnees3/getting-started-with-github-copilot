@@ -160,8 +160,7 @@ jobs:
       - name: Update comment - step finished - final review next
         run: |
           gh issue comment "$ISSUE_URL" \
-            --body-file skills-response-templates/step-feedback/lesson-review.md \
-            --edit-last
+            --body-file skills-response-templates/step-feedback/lesson-review.md
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
