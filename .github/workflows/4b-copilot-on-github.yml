@@ -9,9 +9,7 @@ on:
   #     - edited
 
   # Trigger if Copilot adds a review comment
-  pull_request_review_comment:
-    types:
-      - created
+  pull_request_review:
 
 permissions:
   contents: write
