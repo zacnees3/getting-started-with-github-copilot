@@ -42,13 +42,3 @@ Both **pull request summaries** and **copilot review** have limited access, so t
 1. At the bottom, press the **Merge pull request** button. Nice work! You are all done! :tada:
 
 1. Wait a moment for Mona to check your work, provide feedback, and post a final review of this lesson!
-
-<details>
-<summary>Having trouble? 🤷</summary><br/>
-
-If you don't get feedback, here are some things to check:
-
-- Make sure Copilot generated a description.
-- Make sure Copilot was requested to provide a review.
-
-</details>
