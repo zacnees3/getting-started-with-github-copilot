@@ -1,6 +1,6 @@
 ## Step 2: Getting work done with Copilot
 
-In the previous step, GitHub Copilot was able to helped us onboard to the project. That alone is a huge time saver, but now let's get some work done!
+In the previous step, GitHub Copilot was able to help us onboard to the project. That alone is a huge time saver, but now let's get some work done!
 
 We recently learned there is a bug where students are registering for the same activities twice. That simply isn't acceptable, so let's get it fixed!
 
