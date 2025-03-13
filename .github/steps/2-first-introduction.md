@@ -20,7 +20,7 @@ In short, you can think of Copilot like a very focused coworker. To be effective
 
 ### :keyboard: Activity: Use Copilot to fix our registration bug :bug:
 
-1. Let's ask Copilot to suggest where our bug might be coming from. Open the Copilot Chat panel and ask the following.
+1. Let's ask Copilot to suggest where our bug might be coming from. Open the **Copilot Chat** panel and ask the following.
 
    ```text
    @workspace Students are able to register twice for an activity. Where could this bug be coming from?
@@ -28,7 +28,7 @@ In short, you can think of Copilot like a very focused coworker. To be effective
 
 1. Now that we know the issue is in the `src/appy.py` file and the `signup_for_activity` method, let's go fix it (semi-manually). We'll start with a comment and let Copilot finish the correction.
 
-   1. In VS Code, select the **Navigation** tab to show the project files and open the `src/app.py` file.
+   1. In VS Code, select the file **Explorer tab** to show the project files and open the `src/app.py` file.
 
    1. Scroll near the bottom of the file and find the `signup_for_activity` method.
 
@@ -71,9 +71,9 @@ In short, you can think of Copilot like a very focused coworker. To be effective
 
    </details>
 
-### :keyboard: Activity: Let Copilot generate sample data :robot:
+### :keyboard: Activity: Let Copilot generate sample data 📋
 
-In new project developments, it's often helpful to have some realistic looking fake data for testing. Copilot is excellent at this task, so let's add some more sample activities and introduce another way to interact with Copilot: **Inline Chat**
+In new project developments, it's often helpful to have some realistic looking fake data for testing. Copilot is excellent at this task, so let's add some more sample activities and introduce another way to interact with Copilot using **Inline Chat**
 
 > [!TIP]  
 > **Inline Chat** and the **Copilot Chat** panel are very similar tools, but with slightly different automatic context. As such, while Copilot Chat is good at explaining about the project, inline chat might feel more natural for asking about a particular line or function.
@@ -161,7 +161,7 @@ activities = {
 
 </details>
 
-### :keyboard: Activity: Use Copilot to describe our work :robot:
+### :keyboard: Activity: Use Copilot to describe our work 💬
 
 Nice work fixing that bug and expanding the example activities! Now let's get our work committed and pushed to GitHub, again with the help of Copilot!
 
@@ -179,7 +179,7 @@ Nice work fixing that bug and expanding the example activities! Now let's get ou
 
 1. To the right of the **Message** text box, find and click the **Generate Commit Message with Copilot** button (sparkles icon).
 
-1. Press the **Commit** button and **Sync Changes** button push your chagnes to GitHub.
+1. Press the **Commit** button and **Sync Changes** button to push your changes to GitHub.
 
 1. Wait a moment for Mona to check your work, provide feedback, and share the next lesson.
 
