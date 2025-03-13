@@ -11,7 +11,7 @@ _Get started using GitHub Copilot in less than an hour._
 
 - **Who is this for**: Developers at any experience level looking to accelerate their code workflow.
 - **What you'll learn**: The different ways to interact with Copilot to explain, write, debug, and develop code.
-- **What you'll build**: You will guide Copilot to update Mergington High School's extracurricular activities website..
+- **What you'll build**: You will guide Copilot to update Mergington High School's extracurricular activities website.
 - **Prerequisites**:
   - Skills exercise: [Introduction to GitHub](https://github.com/skills/introduction-to-github)
   - Familiarity with [VS Code](https://code.visualstudio.com/)
