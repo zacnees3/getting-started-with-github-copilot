@@ -26,7 +26,7 @@ In short, you can think of Copilot like a very focused coworker. To be effective
    @workspace Students are able to register twice for an activity. Where could this bug be coming from?
    ```
 
-1. Now that we know the issue is in the `src/appy.py` file and the `signup_for_activity` method, let's go fix it (semi-manually). We'll start with a comment and let Copilot finish the correction.
+1. Now that we know the issue is in the `src/appy.py` file and the `signup_for_activity` method, let's follow Copilot's recommendation and go fix it (semi-manually). We'll start with a comment and let Copilot finish the correction.
 
    1. In VS Code, select the file **Explorer tab** to show the project files and open the `src/app.py` file.
 
@@ -75,8 +75,7 @@ In short, you can think of Copilot like a very focused coworker. To be effective
 
 In new project developments, it's often helpful to have some realistic looking fake data for testing. Copilot is excellent at this task, so let's add some more sample activities and introduce another way to interact with Copilot using **Inline Chat**
 
-> [!TIP]  
-> **Inline Chat** and the **Copilot Chat** panel are very similar tools, but with slightly different automatic context. As such, while Copilot Chat is good at explaining about the project, inline chat might feel more natural for asking about a particular line or function.
+**Inline Chat** and the **Copilot Chat** panel are very similar tools, but with slightly different automatic context. As such, while Copilot Chat is good at explaining about the project, inline chat might feel more natural for asking about a particular line or function.
 
 1. If not already open, open the `src/app.py` file.
 

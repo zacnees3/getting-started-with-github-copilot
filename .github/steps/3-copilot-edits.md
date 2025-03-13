@@ -57,9 +57,11 @@ In our previous steps, we used features of Copilot that require more hands-on gu
 
    </details>
 
-1. Before we simply accept the changes, please check our website again and verify everything is updated as expected. Here is an example of an updated activity card. **Important:** Your results may look slightly different!
+1. Before we simply accept the changes, please check our website again and verify everything is updated as expected. Here is an example of an updated activity card. You may need to restart your or app refresh the page.
 
    <img width="350" alt="Activity card with participant info" src="https://github.com/user-attachments/assets/59fe792e-d587-487d-8525-2548ac0a7adf" />
+
+   > **Note:** Your activity card may look different. Copilot won't always produce the same results.
 
    <details>
    <summary>Need help? 🤷</summary><br/>
