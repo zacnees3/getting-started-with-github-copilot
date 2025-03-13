@@ -22,9 +22,12 @@ In short, you can think of Copilot like a very focused coworker. To be effective
 
 1. Let's ask Copilot to suggest where our bug might be coming from. Open the **Copilot Chat** panel and ask the following.
 
-   ```text
-   @workspace Students are able to register twice for an activity. Where could this bug be coming from?
-   ```
+   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   >
+   > ```prompt
+   > @workspace Students are able to register twice for an activity.
+   > Where could this bug be coming from?
+   > ```
 
 1. Now that we know the issue is in the `src/appy.py` file and the `signup_for_activity` method, let's follow Copilot's recommendation and go fix it (semi-manually). We'll start with a comment and let Copilot finish the correction.
 
@@ -87,9 +90,12 @@ In new project developments, it's often helpful to have some realistic looking f
 
 1. Enter the following prompt text and press enter or the **Send and Dispatch** button.
 
-   ```text
-   Add 2 more sports related activities, 2 more artistic activities, and 2 more intellectual activities.
-   ```
+   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   >
+   > ```prompt
+   > Add 2 more sports related activities, 2 more artistic
+   > activities, and 2 more intellectual activities.
+   > ```
 
 1. After a moment, Copilot will directly start making changes to the code. The changes will be stylized differently to make any additions and removals easy to identify. Take a moment to inspect and then press the **Accept** button.
 
