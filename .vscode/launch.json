@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "FastAPI: Launch Mergington",
+      "name": "Launch Mergington WebApp",
       "type": "debugpy",
       "request": "launch",
       "module": "uvicorn",
