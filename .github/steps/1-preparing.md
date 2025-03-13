@@ -50,6 +50,9 @@ Let's start up our development environment, use copilot to learn a bit about the
 
 1. At the top of VS Code, locate and click the **Copilot icon** to open a Copilot Chat panel.
 
+   <img width="150" alt="image" src="https://github.com/user-attachments/assets/5e64db46-95cb-415d-badc-b6b8677f10c1" />
+
+
 1. Enter the below prompt to ask Copilot to introduce you to the project.
 
    ```txt
