@@ -61,3 +61,11 @@ But... good news. Anyone can access the Insiders version if they know the tricks
 
 1. That's your preview for now. We hope it was fun and please check back soon on the [Skills page](https://skills.github.com) for a dedicated exercise to explore even more of Agent Mode! 🧑‍🚀 🚀
 
+### :keyboard: Activity: Test out Copilot Agent mode, _again_! 🧑‍🚀🚀
+
+Just for fun, let's try something even more difficult and see what happens!
+
+> [!IMPORTANT]
+> The below request asks much more of Copilot.
+> As such is more open-ended and may not work everytime.
+
