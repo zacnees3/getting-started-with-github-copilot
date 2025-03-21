@@ -93,3 +93,11 @@ If you don't get feedback, here are some things to check:
 - If Mona found a mistake, simply make a correction and push your changes again. Mona will check your work as many times as needed.
 
 </details>
+
+<details>
+<summary>Bonus content? 🧐</summary><br/>
+
+> [!TIP]
+> Try adding an issue comment asking @professortocat about Copilot Agent mode. 😉
+
+</details>
