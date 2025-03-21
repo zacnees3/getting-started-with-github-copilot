@@ -32,3 +32,7 @@ But... good news. Anyone can access the Insiders version if they know the tricks
 
       <img width="300" alt="image" src="https://github.com/user-attachments/assets/39e1d9ae-ba50-4cd7-b6b6-eb51aa0a35aa" />
 
+1. Open the **Copilot Edits** side panel. Use the new dropdown menu to switch to **Agent** mode.
+
+   <img width="250" alt="image" src="https://github.com/user-attachments/assets/1849c14d-99f5-48f9-a7fb-8f623bb6837f" />
+
