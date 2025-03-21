@@ -36,3 +36,15 @@ But... good news. Anyone can access the Insiders version if they know the tricks
 
    <img width="250" alt="image" src="https://github.com/user-attachments/assets/1849c14d-99f5-48f9-a7fb-8f623bb6837f" />
 
+1. Time for a test! Let's ask Copilot to add functionality for removing participants.
+
+   ```Prompt
+   #codebase Please add a delete icon next to each participant and hide the bullet points.
+   When clicked, it will unregister that participant from the activity.
+   ```
+
+   - If you try this prompt in **Edit** mode, you will find that the changes to the frontend and backend were made in a theoretical way. Although no syntax or runtime errors occurred, the changes were not compatible and didn't achieve the goal.
+   - In **Agent** mode, Copilot reviewed its own work and refined it to ensure all changes were error free and coordinated together.
+
+1. When Copilot is finished, restart the debugger and inspect the results. If you like the results, press the **Keep** button. If not, try providing Copilot some feedback.
+
