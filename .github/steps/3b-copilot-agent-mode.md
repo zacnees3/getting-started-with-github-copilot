@@ -69,3 +69,14 @@ Just for fun, let's try something even more difficult and see what happens!
 > The below request asks much more of Copilot.
 > As such is more open-ended and may not work everytime.
 
+1. Ask Copilot to install a local database service.
+
+   ```prompt
+   Please install a local mongodb server for development reasons.
+   Afterward, run a command that lists the collections to verify the service is active and working.
+   Do not modify our program yet.
+   ```
+
+   - We purposly made the default development environment not ready for installing a local MongoDB server.
+   - You will see Copilot make mistakes, analyze the error messages, and ask to run various extra commands to make the environment suitable. Nice!
+
