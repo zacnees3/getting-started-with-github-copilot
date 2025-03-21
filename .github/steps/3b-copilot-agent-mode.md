@@ -70,8 +70,6 @@ Now, let's give **Agent** mode a try! 👩‍🚀
 
 1. When Copilot is finished, inspect the results. If you like the results, press the **Keep** button. If not, try providing Copilot some feedback.
 
-1. That's your preview for now. We hope it was fun and please check back soon on the [Skills page](https://skills.github.com) for a dedicated exercise to explore even more of Agent Mode! 🧑‍🚀 🚀
-
 ### :keyboard: Activity: Test out Copilot Agent mode, _again_! 🧑‍🚀🚀
 
 Just for fun, let's try something even more difficult and see what happens!
@@ -91,7 +89,7 @@ Just for fun, let's try something even more difficult and see what happens!
    - We purposly made the default development environment not ready for installing a local MongoDB server.
    - You will see Copilot make mistakes, analyze the error messages, and ask to run various extra commands to make the environment suitable. Nice!
 
-2. Ask Copilot to change our app to use the database service. 🤯
+1. Ask Copilot to change our app to use the database service. 🤯
 
    ```prompt
    #codebase I don't like that we are storing the data in memory.
@@ -99,3 +97,5 @@ Just for fun, let's try something even more difficult and see what happens!
    For now use the local development instance.
    Please prepopulate the database with the existing hardcoded json activities, keeping the the activity name as the key.
    ```
+
+1. That's your preview for now. We hope it was fun and please check back soon on the [Skills page](https://skills.github.com) for a dedicated exercise to explore even more of Agent Mode! 🧑‍🚀 🚀
