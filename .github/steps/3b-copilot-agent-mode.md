@@ -11,6 +11,7 @@ But... good news. Anyone can access the Insiders version if they know the tricks
 
 > [!IMPORTANT]
 > This activity is optional and ungraded.
+> Since the Insiders version is updated daily, please expect to see differences.
 
 ### What is "Agent" Mode?
 
