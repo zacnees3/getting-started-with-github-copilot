@@ -50,10 +50,12 @@ Now, let's give **Agent** mode a try! 👩‍🚀
 
 1. Time for a test! Let's ask Copilot to add functionality for removing participants.
 
-   ```Prompt
-   #codebase Please add a delete icon next to each participant and hide the bullet points.
-   When clicked, it will unregister that participant from the activity.
-   ```
+   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   >
+   > ```prompt
+   > #codebase Please add a delete icon next to each participant and hide the bullet points.
+   > When clicked, it will unregister that participant from the activity.
+   > ```
 
    - If you try this prompt in **Edit** mode, you will find that the changes to the frontend and backend were made in a theoretical way. Although no syntax or runtime errors occurred, the changes were not compatible and didn't achieve the goal.
    - In **Agent** mode, Copilot reviewed its own work and refined it to ensure all changes were error free and coordinated together.
@@ -62,10 +64,12 @@ Now, let's give **Agent** mode a try! 👩‍🚀
 
 1. Ask Copilot to fix a registration bug.
 
-   ```Prompt
-   #codebase I've noticed there seems to be a bug.
-   When a participant is registered, the page must be refreshed to see the change on the activity.
-   ```
+   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   >
+   > ```prompt
+   > #codebase I've noticed there seems to be a bug.
+   > When a participant is registered, the page must be refreshed to see the change on the activity.
+   > ```
 
    - If you try this prompt in **Edit** mode, it may or may not work.
 
@@ -81,22 +85,26 @@ Just for fun, let's try something even more difficult and see what happens!
 
 1. Ask Copilot to install a local database service.
 
-   ```prompt
-   Please install a local mongodb server for development reasons.
-   Afterward, run a command that lists the collections to verify the service is active and working.
-   Do not modify our program yet.
-   ```
+   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   >
+   > ```prompt
+   > Please install a local mongodb server for development reasons.
+   > Afterward, run a command that lists the collections to verify the service is active and working.
+   > Do not modify our program yet.
+   > ```
 
    - We purposly made the default development environment not ready for installing a local MongoDB server.
    - You will see Copilot make mistakes, analyze the error messages, and ask to run various extra commands to make the environment suitable. Nice!
 
 1. Ask Copilot to change our app to use the database service. 🤯
 
-   ```prompt
-   #codebase I don't like that we are storing the data in memory.
-   Let's switch to using mongodb.
-   For now use the local development instance.
-   Please prepopulate the database with the existing hardcoded json activities, keeping the the activity name as the key.
-   ```
+   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   >
+   > ```prompt
+   > #codebase I don't like that we are storing the data in memory.
+   > Let's switch to using mongodb.
+   > For now use the local development instance.
+   > Please prepopulate the database with the existing hardcoded json activities, keeping the the activity name as the key.
+   > ```
 
 1. That's your preview for now. We hope it was fun and please check back soon on the [Skills page](https://skills.github.com) for a dedicated exercise to explore even more of Agent Mode! 🧑‍🚀 🚀
