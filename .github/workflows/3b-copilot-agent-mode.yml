@@ -35,7 +35,6 @@ jobs:
           COMMENT_BODY: ${{ github.event.comment.body }}
 
   find_exercise:
-    if: false
     name: Find exercise by issue title
     runs-on: ubuntu-latest
 
@@ -59,13 +58,11 @@ jobs:
           REPO: ${{ github.repository }}
 
   post_step_3b_content:
-    if: true
     name: Post step 3b content
-    # needs: [find_exercise]
+    needs: [find_exercise]
     runs-on: ubuntu-latest
     env:
-      # ISSUE_URL: ${{ needs.find_exercise.outputs.issue-url }}
-      ISSUE_URL: "https://github.com/chriswblake/playground/issues/32"
+      ISSUE_URL: ${{ needs.find_exercise.outputs.issue-url }}
 
     steps:
       - name: Checkout
