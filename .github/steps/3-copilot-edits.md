@@ -97,7 +97,6 @@ If you don't get feedback, here are some things to check:
 <details>
 <summary>Bonus content? 🧐</summary><br/>
 
-> [!TIP]
-> Try adding an issue comment asking @professortocat about Copilot Agent mode. 😉
+> **Insider Tip:** Try adding an issue comment asking @professortocat about Copilot Agent mode. 😉
 
 </details>
