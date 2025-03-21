@@ -12,6 +12,17 @@ But... good news. Anyone can access the Insiders version if they know the tricks
 > [!IMPORTANT]
 > This activity is optional and ungraded.
 
+### What is "Agent" Mode?
+
+**Agent** mode enhances Copilot by automatically providing it feedback, typically the types of feedback you would provide after reviewing Copilot's suggested edits.
+
+**Agent** mode gives Copilot a feedback loop, enabling it to inspect its own results for issues, bugs, inconsistency, etc. in the code and even the terminal! This allows it to automatically revise its work in many situations. Similarly this means **Agent** mode can
+typically handle more complex and multi-step tasks.
+
+That's just a brief intro and there is much more to learn, but that's for a dedicated future exercise. (hint)
+
+Now, let's give **Agent** mode a try! 👩‍🚀
+
 ### :keyboard: Activity: Test out Copilot Agent mode! 🧑‍🚀
 
 > [!IMPORTANT]
