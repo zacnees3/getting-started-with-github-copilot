@@ -11,3 +11,24 @@ But... good news. Anyone can access the Insiders version if they know the tricks
 
 > [!IMPORTANT]
 > This activity is optional and ungraded.
+
+### :keyboard: Activity: Test out Copilot Agent mode! 🧑‍🚀
+
+> [!IMPORTANT]
+> Copilot Agent mode is only available when using the insiders version of VS Code and the pre-release version of the GitHub Copilot extension.
+
+1. If needed, use the below steps to switch your VS Code and Copilot extension to the **Insiders** version.
+
+   1. Ensure you are in a browser-based instance of VS Code (your Codespace).
+
+      > **Tip:** This allows switching to **Insiders** mode without installing another version on your local computer.
+
+   1. In the bottom left, click the **Manage** icon and select the **Switch to Insiders Version...** option.
+
+      <img width="300" alt="image" src="https://github.com/user-attachments/assets/11580b67-9891-4aa9-9a7c-04aff1e7ef9c" />
+
+   1. In the left navigation, select the **Extensions** tab.
+      Find the **GitHub Copilot** entry, click the **Manage** icon, and select **Switch to Pre-Release Version**.
+
+      <img width="300" alt="image" src="https://github.com/user-attachments/assets/39e1d9ae-ba50-4cd7-b6b6-eb51aa0a35aa" />
+
