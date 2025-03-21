@@ -48,3 +48,16 @@ But... good news. Anyone can access the Insiders version if they know the tricks
 
 1. When Copilot is finished, restart the debugger and inspect the results. If you like the results, press the **Keep** button. If not, try providing Copilot some feedback.
 
+1. Ask Copilot to fix a registration bug.
+
+   ```Prompt
+   #codebase I've noticed there seems to be a bug.
+   When a participant is registered, the page must be refreshed to see the change on the activity.
+   ```
+
+   - If you try this prompt in **Edit** mode, it may or may not work.
+
+1. When Copilot is finished, inspect the results. If you like the results, press the **Keep** button. If not, try providing Copilot some feedback.
+
+1. That's your preview for now. We hope it was fun and please check back soon on the [Skills page](https://skills.github.com) for a dedicated exercise to explore even more of Agent Mode! 🧑‍🚀 🚀
+
