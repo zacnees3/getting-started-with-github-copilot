@@ -80,3 +80,11 @@ Just for fun, let's try something even more difficult and see what happens!
    - We purposly made the default development environment not ready for installing a local MongoDB server.
    - You will see Copilot make mistakes, analyze the error messages, and ask to run various extra commands to make the environment suitable. Nice!
 
+2. Ask Copilot to change our app to use the database service. 🤯
+
+   ```prompt
+   #codebase I don't like that we are storing the data in memory.
+   Let's switch to using mongodb.
+   For now use the local development instance.
+   Please prepopulate the database with the existing hardcoded json activities, keeping the the activity name as the key.
+   ```
