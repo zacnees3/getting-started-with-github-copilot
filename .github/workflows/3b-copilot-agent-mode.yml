@@ -59,7 +59,7 @@ jobs:
 
   post_step_3b_content:
     name: Post step 3b content
-    needs: [find_exercise]
+    needs: [find_exercise, required_issue_comment_keywords]
     runs-on: ubuntu-latest
     env:
       ISSUE_URL: ${{ needs.find_exercise.outputs.issue-url }}
