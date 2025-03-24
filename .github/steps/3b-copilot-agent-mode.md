@@ -27,9 +27,9 @@ Now, let's give **Agent** mode a try! 👩‍🚀
 ### :keyboard: Activity: Test out Copilot Agent mode! 🧑‍🚀
 
 > [!IMPORTANT]
-> Copilot Agent mode is only available when using the insiders version of VS Code and the pre-release version of the GitHub Copilot extension.
+> Copilot Agent mode is only available when using both the insiders version of VS Code and the pre-release version of the GitHub Copilot extension.
 
-1. If needed, use the below steps to switch your VS Code and Copilot extension to the **Insiders** version.
+1. If needed, use the below steps to switch your VS Code to the **Insiders** version and your Copilot extension to the **Pre-release** version. **Note:** While they are temporarily mixed you will may receive error messages about incompatability.
 
    1. Ensure you are in a browser-based instance of VS Code (your Codespace).
 
@@ -44,7 +44,10 @@ Now, let's give **Agent** mode a try! 👩‍🚀
 
       <img width="300" alt="image" src="https://github.com/user-attachments/assets/39e1d9ae-ba50-4cd7-b6b6-eb51aa0a35aa" />
 
-1. Open the **Copilot Edits** side panel. Use the new dropdown menu to switch to **Agent** mode.
+      A greeen tag will be added in the top left to indicate the pre-release version.
+
+      <img width="160" alt="image" src="https://github.com/user-attachments/assets/21ee8307-0c6d-4e8e-965d-cfd729edfe4c" />
+
 
    <img width="250" alt="image" src="https://github.com/user-attachments/assets/1849c14d-99f5-48f9-a7fb-8f623bb6837f" />
 
