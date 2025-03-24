@@ -48,8 +48,9 @@ Now, let's give **Agent** mode a try! 👩‍🚀
 
       <img width="160" alt="image" src="https://github.com/user-attachments/assets/21ee8307-0c6d-4e8e-965d-cfd729edfe4c" />
 
+1. Open the **Copilot** side panel and use the dropdown menu to switch to **Agent** mode.
 
-   <img width="250" alt="image" src="https://github.com/user-attachments/assets/1849c14d-99f5-48f9-a7fb-8f623bb6837f" />
+   <img width="250" alt="image" src="https://github.com/user-attachments/assets/36f46929-11dc-4464-b5bf-1b194a9dafea" />
 
 1. Time for a test! Let's ask Copilot to add functionality for removing participants.
 
