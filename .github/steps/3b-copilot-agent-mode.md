@@ -108,7 +108,7 @@ Just for fun, let's try something even more difficult and see what happens!
    > #codebase I don't like that we are storing the data in memory.
    > Let's switch to using mongodb.
    > For now use the local development instance.
-   > Please prepopulate the database with the existing hardcoded json activities, keeping the the activity name as the key.
+   > Please prepopulate the database with the existing hardcoded json activities, keeping the activity name as the key.
    > ```
 
 1. That's your preview for now. We hope it was fun and please check back soon on the [Skills page](https://skills.github.com) for a dedicated exercise to explore even more of Agent Mode! 🧑‍🚀 🚀
