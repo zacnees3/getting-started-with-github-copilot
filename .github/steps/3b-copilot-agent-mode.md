@@ -56,7 +56,7 @@ Let's experiment with some more open-ended requests that will add more functiona
 
 1. Open the **Copilot** side panel and use the dropdown menu to switch to **Agent** mode.
 
-   <img width="250" alt="image" src="https://github.com/user-attachments/assets/36f46929-11dc-4464-b5bf-1b194a9dafea" />
+   <img width="250" alt="image" src="https://github.com/user-attachments/assets/201e08ab-14a0-48bf-824e-ba4f8f43f8ab" />
 
 1. Time for a test! Let's ask Copilot to add functionality for removing participants.
 
