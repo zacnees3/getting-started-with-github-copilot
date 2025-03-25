@@ -93,6 +93,9 @@ Just for fun, let's try something even more difficult and open-ended to see what
 > In our experiments, we got working results most of the time, but not every time.
 > You might try other models or pausing to provide Copilot feedback.
 
+1. (optional) If it is available for you, let's try a different model such as `Claude 3.5 Sonnet`.
+
+   <img width="250" alt="image" src="https://github.com/user-attachments/assets/16125b88-8428-4f62-9c1b-5761e26ed888" />
 
 1. Ask Copilot to install a local database service.
 
