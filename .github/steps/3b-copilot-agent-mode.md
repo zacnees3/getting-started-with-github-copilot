@@ -58,7 +58,7 @@ Let's experiment with some more open-ended requests that will add more functiona
 
    <img width="250" alt="image" src="https://github.com/user-attachments/assets/201e08ab-14a0-48bf-824e-ba4f8f43f8ab" />
 
-1. Time for a test! Let's ask Copilot to add functionality for removing participants.
+1. Time for our test! Let's ask Copilot to add functionality for removing participants.
 
    > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
    >
@@ -67,10 +67,10 @@ Let's experiment with some more open-ended requests that will add more functiona
    > When clicked, it will unregister that participant from the activity.
    > ```
 
-   - If you try this prompt in **Edit** mode, you will find that the changes to the frontend and backend were made in a theoretical way. Although no syntax or runtime errors occurred, the changes were not compatible and didn't achieve the goal.
+   - If you try this prompt in **Edit** mode, you will propbably find that the changes to the frontend and backend were made in a theoretical way. Although no syntax or runtime errors occurred, the changes were not compatible and didn't achieve the goal.
    - In **Agent** mode, Copilot reviewed its own work and refined it to ensure all changes were error free and coordinated together.
 
-1. When Copilot is finished, restart the debugger and inspect the results. If you like the results, press the **Keep** button. If not, try providing Copilot some feedback.
+1. When Copilot is finished, restart the debugger and inspect the results. If you like the results, press the **Keep** button. If not, try providing Copilot some feedback to refined the results.
 
 1. Ask Copilot to fix a registration bug.
 
@@ -87,11 +87,12 @@ Let's experiment with some more open-ended requests that will add more functiona
 
 ### :keyboard: Activity: Test out Copilot Agent mode, _again_! 🧑‍🚀🚀
 
-Just for fun, let's try something even more difficult and see what happens!
+Just for fun, let's try something even more difficult and open-ended to see what happens!
 
-> [!IMPORTANT]
-> The below request asks much more of Copilot.
-> As such is more open-ended and may not work everytime.
+> [!TIP]
+> In our experiments, we got working results most of the time, but not every time.
+> You might try other models or pausing to provide Copilot feedback.
+
 
 1. Ask Copilot to install a local database service.
 
