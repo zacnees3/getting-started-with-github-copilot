@@ -24,7 +24,7 @@ That's just a brief intro and there is much more to learn, but that's for a dedi
 
 Now, let's give **Agent** mode a try! 👩‍🚀
 
-### :keyboard: Activity: Switch to Insiders Mode
+### :keyboard: Activity: Switch to Insiders mode
 
 If you are not familiar with the Insiders program, please use the below steps to switch your VS Code to the **Insiders** version and your Copilot extension to the **Pre-release** version.
 
@@ -93,7 +93,7 @@ Just for fun, let's try something even more difficult and open-ended to see what
 > In our experiments, we got working results most of the time, but not every time.
 > You might try other models or pausing to provide Copilot feedback.
 
-1. (optional) If it is available for you, let's try a different model such as `Claude 3.5 Sonnet`.
+1. (optional) If it is available for you, you might try another model such as `Claude 3.5 Sonnet`.
 
    <img width="250" alt="image" src="https://github.com/user-attachments/assets/16125b88-8428-4f62-9c1b-5761e26ed888" />
 
