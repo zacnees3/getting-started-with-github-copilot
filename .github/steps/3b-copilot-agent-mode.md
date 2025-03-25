@@ -49,6 +49,11 @@ If you are not familiar with the Insiders program, please use the below steps to
    <img width="160" alt="image" src="https://github.com/user-attachments/assets/21ee8307-0c6d-4e8e-965d-cfd729edfe4c" />
 
 ### :keyboard: Activity: Test out Copilot Agent mode! 🧑‍🚀
+
+Let's experiment with some more open-ended requests that will add more functionality to our web application. Remember, AI assistants often produce different results, even if the same prompt is provided. If you don't get the desired results, you can try other models or provided followup feedback to refine the results.
+
+1. Ensure you using **both** the insiders version of VS Code and the pre-release version of the GitHub Copilot extension.
+
 1. Open the **Copilot** side panel and use the dropdown menu to switch to **Agent** mode.
 
    <img width="250" alt="image" src="https://github.com/user-attachments/assets/36f46929-11dc-4464-b5bf-1b194a9dafea" />
