@@ -42,6 +42,7 @@ In our previous steps, we used features of Copilot that require more hands-on gu
    > ```prompt
    > Hey Copilot, can you please edit the activity cards to add a participants section.
    > It will show what participants that are already signed up for that activity as a bulleted list.
+   > Remember to make it pretty!
    > ```
 
    - An extra icon has appeared next to the file names and open editor windows indicating they have suggested edits.
