@@ -1,0 +1,66 @@
+import os from selenium import webdriver from selenium.webdriver.common.by import By from selenium.webdriver.common.keys import Keys import time
+
+def login_twitter(driver): username = os.getenv("TWITTER_USERNAME=nowab09") password = os.getenv("TWITTER_PASSWORD=RABBISA@$&1q")
+
+driver.get("https://twitter.com/login")
+time.sleep(3)
+
+username_input = driver.find_element(By.NAME, "text")
+username_input.send_keys(username)
+username_input.send_keys(Keys.RETURN)
+time.sleep(3)
+
+password_input = driver.find_element(By.NAME, "password")
+password_input.send_keys(password)
+password_input.send_keys(Keys.RETURN)
+time.sleep(3)
+
+def join_airdrop(driver, airdrop_link): driver.get(airdrop_link) time.sleep(5)
+
+try:
+    follow_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Follow')]")
+    follow_button.click()
+    time.sleep(2)
+except:
+    print("Already following or button not found")
+
+try:
+    retweet_button = driver.find_element(By.XPATH, "//div[@data-testid='retweet']")
+    retweet_button.click()
+    time.sleep(2)
+    confirm_retweet = driver.find_element(By.XPATH, "//div[@data-testid='retweetConfirm']")
+    confirm_retweet.click()
+except:
+    print("Retweet failed or already done")
+
+print("Airdrop joined successfully!")
+
+def join_telegram(driver, group_link): driver.get(group_link) time.sleep(5)
+
+try:
+    join_button = driver.find_element(By.XPATH, "//button[contains(text(), 'JOIN')]" )
+    join_button.click()
+    time.sleep(2)
+except:
+    print("Already in Telegram group or button not found")
+
+def join_discord(driver, invite_link): driver.get(invite_link) time.sleep(5)
+
+try:
+    accept_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Accept Invite')]" )
+    accept_button.click()
+    time.sleep(2)
+except:
+    print("Already in Discord server or button not found")
+
+if name == "main": airdrop_url = "https://twitter.com/some_airdrop_campaign" telegram_group_url = "https://t.me/some_airdrop_group" discord_invite_url = "https://discord.com/invite/some_airdrop_community"
+
+driver = webdriver.Chrome()
+try:
+    login_twitter(driver)
+    join_airdrop(driver, airdrop_url)
+    join_telegram(driver, telegram_group_url)
+    join_discord(driver, discord_invite_url)
+finally:
+    driver.quit()
+
