@@ -1,0 +1,30 @@
+name: Crypto Airdrop Bot
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 12 * * *'  # Runs daily at 12:00 UTC
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+  
+      - name: Install dependencies
+        run: |
+          pip install selenium
+  
+      - name: Run bot script
+        env:
+          TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
+          TWITTER_PASSWORD: ${{ secrets.TWITTER_PASSWORD }}
+        run: python bot.py
