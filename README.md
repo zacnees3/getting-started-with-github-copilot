@@ -23,7 +23,7 @@ In this exercise, you will:
 
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
 
-   [![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-brightgreen?style=for-the-badge&logo=github)](https://github.com/new?template_owner=skills&template_name=getting-started-with-github-copilot&owner=%40me&name=skills-getting-started-with-github-copilot&description=Exercise:+Get+started+using+GitHub+Copilot&visibility=public)
+[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=getting-started-with-github-copilot&owner=%40me&name=skills-getting-started-with-github-copilot&description=Exercise:+Get+started+using+GitHub+Copilot&visibility=public)
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>
@@ -41,10 +41,3 @@ If the exercise isn't ready in 20 seconds, please check the [Actions](../../acti
 - If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
 
 </details>
-
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/getting-started-with-github-copilot) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
