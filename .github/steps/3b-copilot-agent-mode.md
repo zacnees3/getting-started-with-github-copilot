@@ -1,4 +1,4 @@
-### :keyboard: Bonus Activity - Preview of GitHub Copilot Agent Mode
+### :keyboard: Bonus Activity - GitHub Copilot Agent Mode
 
 > [!NOTE]
 > This activity is optional and not graded.
@@ -14,7 +14,7 @@ That's just a brief intro and there is much more to learn, but that's for a dedi
 
 Now, let's give **Agent** mode a try! 👩‍🚀
 
-### :keyboard: Activity: Test out Copilot Agent mode! 🧑‍🚀
+### :keyboard: Activity: Use Agent mode to add functional "unregister" buttons 
 
 Let's experiment with some more open-ended requests that will add more functionality to our web application. Remember, AI assistants often produce different results, even if the same prompt is provided. If you don't get the desired results, you can try other models or provided followup feedback to refine the results.
 
@@ -49,7 +49,7 @@ Let's experiment with some more open-ended requests that will add more functiona
 
 1. When Copilot is finished, inspect the results. If you like the results, press the **Keep** button. If not, try providing Copilot some feedback.
 
-### :keyboard: Activity: Test out Copilot Agent mode, _again_! 🧑‍🚀🚀
+### :keyboard: Activity: Use Agent mode to change the database! 🧑‍🚀
 
 Just for fun, let's try something even more difficult and open-ended to see what happens!
 
