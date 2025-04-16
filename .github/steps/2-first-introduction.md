@@ -23,7 +23,7 @@ In short, you can think of Copilot like a very specialized coworker. To be effec
 
 ### :keyboard: Activity: Use Copilot to fix our registration bug :bug:
 
-1. Let's ask Copilot to suggest where our bug might be coming from. Open the **Copilot Chat** panel and ask the following.
+1. Let's ask Copilot to suggest where our bug might be coming from. Open the **Copilot Chat** panel in **Ask mode** and ask the following.
 
    > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
    >

@@ -18,9 +18,9 @@ Now, let's give **Agent** mode a try! 👩‍🚀
 
 Let's experiment with some more open-ended requests that will add more functionality to our web application. Remember, AI assistants often produce different results, even if the same prompt is provided. If you don't get the desired results, you can try other models or provided followup feedback to refine the results.
 
-1. Open the **Copilot** side panel and use the dropdown menu to switch to **Agent** mode.
+1. Open the **Copilot** chat panel and use the dropdown menu to switch to **Agent** mode.
 
-   <img width="250" alt="image" src="https://github.com/user-attachments/assets/201e08ab-14a0-48bf-824e-ba4f8f43f8ab" />
+   <img width="250" alt="image" src="https://github.com/user-attachments/assets/8c537e2a-d89a-4908-8d35-77c7f0830805" />
 
 1. Time for our test! Let's ask Copilot to add functionality for removing participants.
 
