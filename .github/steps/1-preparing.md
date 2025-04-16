@@ -52,7 +52,7 @@ Let's start up our development environment, use copilot to learn a bit about the
 
    <img width="150" alt="image" src="https://github.com/user-attachments/assets/5e64db46-95cb-415d-badc-b6b8677f10c1" />
 
-1. If this is your first, time using GitHub Copilot, you will have to accept the usage terms to continue.
+1. If this is your first time using GitHub Copilot, you will need to accept the usage terms to continue.
 
 1. Enter the below prompt to ask Copilot to introduce you to the project.
 
@@ -92,7 +92,7 @@ Great work! Now that we are familiar with the app and we know it works, let's as
 
 1. Within the new terminal window use the keyboard shortcut `Ctrl + I` (windows) or `Cmd + I` (mac) to bring up **Copilot's Terminal Inline Chat**.
 
-1. Let's ask Copilot to help us remember a command we have forgotten: creating a branch and publishing it
+1. Let's ask Copilot to help us remember a command we have forgotten: creating a branch and publishing it.
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
