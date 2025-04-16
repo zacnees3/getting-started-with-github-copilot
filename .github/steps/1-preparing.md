@@ -56,7 +56,7 @@ Let's start up our development environment, use copilot to learn a bit about the
 
 1. Enter the below prompt to ask Copilot to introduce you to the project.
 
-   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
    > @workspace Please briefly explain the structure of this project.
@@ -94,7 +94,7 @@ Great work! Now that we are familiar with the app and we know it works, let's as
 
 1. Let's ask Copilot to help us remember a command we have forgotten: creating a branch and publishing it
 
-   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
    > Hey copilot, how can I create and publish a new Git branch?
@@ -109,7 +109,7 @@ Great work! Now that we are familiar with the app and we know it works, let's as
    git push -u origin {new_branch_name}
    ```
 
-   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
    > Awesome! Thanks, Copilot! Let's use the

@@ -24,7 +24,7 @@ Let's experiment with some more open-ended requests that will add more functiona
 
 1. Time for our test! Let's ask Copilot to add functionality for removing participants.
 
-   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
    > #codebase Please add a delete icon next to each participant and hide the bullet points.
@@ -38,7 +38,7 @@ Let's experiment with some more open-ended requests that will add more functiona
 
 1. Ask Copilot to fix a registration bug.
 
-   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
    > #codebase I've noticed there seems to be a bug.
@@ -63,7 +63,7 @@ Just for fun, let's try something even more difficult and open-ended to see what
 
 1. Ask Copilot to install a local database service.
 
-   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
    > Please install a local mongodb server for development reasons.
@@ -76,7 +76,7 @@ Just for fun, let's try something even more difficult and open-ended to see what
 
 1. Ask Copilot to change our app to use the database service. 🤯
 
-   > <img width="13px" src="https://github.com/user-attachments/assets/98fd5d2e-ea29-4a4a-9212-c7050e177a69" /> **Prompt**
+   > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
    > #codebase I don't like that we are storing the data in memory.
