@@ -14,7 +14,7 @@ That's just a brief intro and there is much more to learn, but that's for a dedi
 
 Now, let's give **Agent** mode a try! 👩‍🚀
 
-### :keyboard: Activity: Use Agent mode to add functional "unregister" buttons 
+### :keyboard: Activity: Use Agent mode to add functional "unregister" buttons
 
 Let's experiment with some more open-ended requests that will add more functionality to our web application. Remember, AI assistants often produce different results, even if the same prompt is provided. If you don't get the desired results, you can try other models or provided followup feedback to refine the results.
 
