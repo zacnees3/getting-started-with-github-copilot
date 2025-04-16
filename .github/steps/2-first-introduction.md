@@ -92,7 +92,7 @@ In new project developments, it's often helpful to have some realistic looking f
 
 1. If not already open, open the `src/app.py` file.
 
-1. Near the top (about line 23), find the `activities` variable, where our example extracurricular activies are configured.
+1. Near the top (about line 23), find the `activities` variable, where our example extracurricular activities are configured.
 
 1. Click on any of the related lines and bring up Copilot inline chat by using the keyboard command `Ctrl + I` (windows) or `Cmd + I` (mac).
 

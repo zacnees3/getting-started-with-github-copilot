@@ -25,7 +25,7 @@ Your most common interactions will likely be:
 
 ### How can I use GitHub Copilot?
 
-As you work, you'll find GitHub Copilot can help out in several places across the website and in your favorite coding environments such as VS Code, Jet Brains, and Xcode! For today's coding though, we will practice with VS Code in a preconfigured development environment known as [Codespace](https://github.com/features/codespaces).
+As you work, you'll find GitHub Copilot can help out in several places across the website and in your favorite coding environments such as VS Code, Jet Brains, and Xcode! For today's coding though, we will practice with VS Code in a pre-configured development environment known as [Codespace](https://github.com/features/codespaces).
 
 ### :keyboard: Activity: Get a project intro from Copilot Chat
 
