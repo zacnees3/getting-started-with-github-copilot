@@ -18,6 +18,9 @@ In short, you can think of Copilot like a very focused coworker. To be effective
 
 - **How do I make prompts?:** Being explicit and clear helps Copilot do the best job. But unlike some traditional systems, you can always clarify your direction with followup prompts.
 
+> [!TIP]
+> There several other ways to supplement Copilot's knowledge and capabilities like [chat participants](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=vscode#chat-participants), [chat variables](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=vscode#chat-variables), [slash commands](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=vscode#slash-commands-1), and [MCP tools](https://code.visualstudio.com/docs/copilot/chat/mcp-servers).
+
 ### :keyboard: Activity: Use Copilot to fix our registration bug :bug:
 
 1. Let's ask Copilot to suggest where our bug might be coming from. Open the **Copilot Chat** panel and ask the following.
@@ -28,6 +31,13 @@ In short, you can think of Copilot like a very focused coworker. To be effective
    > @workspace Students are able to register twice for an activity.
    > Where could this bug be coming from?
    > ```
+
+   <details>
+   <summary>What is @workspace?</summary>
+
+   Great question! This is a specialized [chat participant](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=vscode#chat-participants) that will explore the project repository and try to include relevant additional context.
+
+   </details>
 
 1. Now that we know the issue is in the `src/app.py` file and the `signup_for_activity` method, let's follow Copilot's recommendation and go fix it (semi-manually). We'll start with a comment and let Copilot finish the correction.
 
