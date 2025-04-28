@@ -1,0 +1,48 @@
+/my-app
+│
+├── public/                 # Static files (images, favicons, robots.txt)
+│
+├── src/
+│   ├── components/          # Reusable UI components (Button, Card, Navbar, Post, Comment)
+│   │   ├── ui/              # Tiny design pieces (Button, Input, Modal, Avatar)
+│   │   ├── asset/           # Asset-specific components (Chart, AssetCard)
+│   │   ├── feed/            # Feed items (PostCard, PostList)
+│   │   └── profile/         # Profile-specific (ProfileHeader, FollowerList)
+│   │
+│   ├── pages/               # Next.js routing (each file = a page)
+│   │   ├── index.tsx        # Home feed page
+│   │   ├── discover.tsx     # Discover page
+│   │   ├── asset/           # Dynamic asset pages [assetId].tsx
+│   │   ├── profile/         # Dynamic user profiles [userId].tsx
+│   │   ├── auth/            # Login, Signup pages
+│   │   └── settings/        # Account settings page
+│   │
+│   ├── app/ (Optional if using latest Next.js 14 app router)
+│   │   ├── layout.tsx       # Global layout
+│   │   ├── page.tsx         # Home page if using App Router
+│   │
+│   ├── lib/                 # Helpers (db.ts, auth.ts, formatters.ts)
+│   │
+│   ├── prisma/              # Prisma schema + migrations
+│   │   └── schema.prisma
+│   │
+│   ├── server/              # Server-side code (API handlers, database functions)
+│   │   ├── api/             # Custom API routes
+│   │   ├── services/        # Service logic (postService.ts, userService.ts)
+│   │   └── auth/            # NextAuth config
+│   │
+│   ├── hooks/               # Custom React hooks (useUser, useAsset, etc.)
+│   │
+│   ├── context/             # Context Providers (AuthContext, ThemeContext)
+│   │
+│   ├── styles/              # Global CSS/Tailwind setup
+│   │   └── globals.css
+│   │
+│   └── utils/               # Utility functions (dateFormat.ts, apiFetcher.ts)
+│
+├── .env.local               # Environment variables (DB_URL, Auth Secrets)
+├── next.config.js            # Next.js configuration
+├── tailwind.config.ts        # Tailwind CSS config
+├── prisma/schema.prisma      # Prisma database schema
+├── package.json              # NPM dependencies
+├── README.md                 # Project documentation
