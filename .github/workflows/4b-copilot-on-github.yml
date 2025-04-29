@@ -2,11 +2,11 @@ name: Step 4b # Copilot on GitHub
 
 on:
   # Trigger if PR Description is edited
-  # pull_request:
-  #   branches:
-  #     - main
-  #   types:
-  #     - edited
+  pull_request:
+    branches:
+      - main
+    types:
+      - edited
 
   # Trigger if Copilot adds a review comment
   pull_request_review:
