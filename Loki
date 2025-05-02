@@ -1,0 +1,47 @@
+import cv2
+import numpy as np
+
+def create_simulated_fruit(with_pesticide=False):
+    # Create a blank image (500x500 pixels, RGB)
+    image = np.zeros((500, 500, 3), dtype=np.uint8)
+
+    # Draw a red circle to simulate an apple
+    cv2.circle(image, (250, 250), 100, (0, 0, 255), -1)
+
+    if with_pesticide:
+        # Simulate pesticide residue with white spots
+        for _ in range(30):
+            x = np.random.randint(150, 350)
+            y = np.random.randint(150, 350)
+            radius = np.random.randint(3, 10)
+            cv2.circle(image, (x, y), radius, (255, 255, 255), -1)
+    return image
+
+def detect_pesticide(image):
+    hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+    lower_white = np.array([0, 0, 200])
+    upper_white = np.array([180, 55, 255])
+    mask = cv2.inRange(hsv, lower_white, upper_white)
+    result = cv2.bitwise_and(image, image, mask=mask)
+    residue_pixels = cv2.countNonZero(mask)
+
+    print(f"Pesticide residue pixel count: {residue_pixels}")
+    if residue_pixels > 100:
+        print("Pesticide Detected!")
+    else:
+        print("No Pesticide Detected.")
+
+    # Display results
+    cv2.imshow("Simulated Fruit", image)
+    cv2.imshow("Pesticide Detection Result", result)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+# Run simulation with and without pesticide
+print("Simulating clean fruit:")
+clean_fruit = create_simulated_fruit(with_pesticide=False)
+detect_pesticide(clean_fruit)
+
+print("\nSimulating contaminated fruit:")
+contaminated_fruit = create_simulated_fruit(with_pesticide=True)
+detect_pesticide(contaminated_fruit)
